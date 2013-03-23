@@ -1,0 +1,32 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[plain]{fullpage}
+\usepackage{graphicx}  %This enables the inclusion of pdf graphic files in figures
+\usepackage{wrapfig}
+%\addtocounter{section}{0}
+\title{Distributed Denial of Service Attacks}
+\author{Magnus Krane}
+\date{\tt {magnkr@stud.ntnu.no}\\
+TTM4135 Information Security\\
+\today}
+\begin{document}
+\maketitle
+\vspace{3cm}
+% Abstract
+\begin{abstract}
+This paper is a lab report from the "Web Security Lab" which is a term assignment in the course TTM4135 at NTNU. 
+\end{abstract}
+\section{Introduction}
+\paragraph{}
+\section{Discussion}
+\paragraph{Denial of Service (DoS)\newline} A denial of service attack prevents or inhibits the normal use or management of communications facilities \cite{1}. A attacker have many ways to make the service unavailable for legitimate users. This can be manipulating networks packets, programming, or resources handling vulnerabilities among others \cite{3}. Flooding of a network with information is the most common and obvious type of DoS attack. This could be such as loading a web page.
+\paragraph{}When you type a URL for a website into your browser, the browser sends a request to the server hosting the website. The server can only handle a certain amount of request at once. This means that if the attacker is the flooding the network with request, the server can't process your request \cite{4}. 
+\paragraph{Distributed Denial of Service (DDoS)}
+\section{Conclusions}
+\paragraph{}
+\begin{thebibliography}{9}
+\bibitem{1}William Stallings, \emph{Cryptography and Network Security - Principle and Practice}. Fifth edition, Prentice Hall, 2011.
+\bibitem{2}Ross Anderson \emph{Security Engineering. Second edition}, Wiley Publishing, 2008.
+\bibitem{3}Owasp.org \emph{OWASP, Denial of Service}.\\ https://www.owasp.org/index.php/Denial\textunderscore of\textunderscore Service
+\bibitem{4}U.S. Department of Homeland Security \emph{US-CERT, Understanding Denial-of-Service Attacks}.\\ https://www.us-cert.gov/ncas/tips/ST04-015
+\end{thebibliography}
+\end{document} 
